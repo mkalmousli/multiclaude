@@ -29,6 +29,9 @@
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"mcl (multiclaude)","url":"https://al-mo.de/tools/mcl/","description":"Open-source CLI to run multiple isolated Claude Code logins side by side.","applicationCategory":"DeveloperApplication","operatingSystem":"Linux, macOS, Windows","license":"https://opensource.org/licenses/MIT","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"codeRepository":"https://github.com/mkalmousli/multiclaude","author":{"@type":"Person","name":"mkalmousli"}}
 </script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23d9a066'/%3E%3Ctext x='16' y='22' font-size='16' font-family='monospace' font-weight='700' text-anchor='middle' fill='%2314161c'%3Emc%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I use two Claude Code accounts at once?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Each mcl instance sets its own CLAUDE_CONFIG_DIR, so you can run different logins in different terminals simultaneously."}}, {"@type": "Question", "name": "How do I switch Claude Code accounts without logging out?", "acceptedAnswer": {"@type": "Answer", "text": "Create an instance per account with mcl new work, then start it with mcl work. Each one keeps its own login, so there is nothing to switch."}}, {"@type": "Question", "name": "Does mcl share settings between accounts?", "acceptedAnswer": {"@type": "Answer", "text": "Only if you ask. mcl new name --share links settings.json, CLAUDE.md, commands, agents and skills from ~/.claude. Logins and history always stay separate."}}, {"@type": "Question", "name": "Where does mcl store my data?", "acceptedAnswer": {"@type": "Answer", "text": "In ~/.multiclaude/<name> by default. Set MULTICLAUDE_HOME to change it."}}, {"@type": "Question", "name": "Is mcl free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, fully free and open source under the MIT license."}}, {"@type": "Question", "name": "Which platforms are supported?", "acceptedAnswer": {"@type": "Answer", "text": "Linux, macOS and Windows with Python 3.9 or newer."}}, {"@type": "Question", "name": "Is mcl affiliated with Anthropic?", "acceptedAnswer": {"@type": "Answer", "text": "No. It is an independent open-source tool that launches the official claude CLI."}}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "al-mo.de", "item": "https://al-mo.de/"}, {"@type": "ListItem", "position": 2, "name": "mcl", "item": "https://al-mo.de/tools/mcl/"}]}]}
+</script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -62,6 +65,19 @@
     <div class="diagram"><img loading="lazy" src="assets/diagram.svg" alt="mcl maps each instance name to its own config directory and claude session" width="720" height="220"></div>
   </section>
 
+
+  <section id="faq">
+    <h2>Frequently asked questions</h2>
+    <div class="grid">
+      <div class="card"><h3>Can I use two Claude Code accounts at once?</h3><p>Yes. Each mcl instance sets its own CLAUDE_CONFIG_DIR, so you can run different logins in different terminals simultaneously.</p></div>
+      <div class="card"><h3>How do I switch Claude Code accounts without logging out?</h3><p>Create an instance per account with mcl new work, then start it with mcl work. Each one keeps its own login, so there is nothing to switch.</p></div>
+      <div class="card"><h3>Does mcl share settings between accounts?</h3><p>Only if you ask. mcl new name --share links settings.json, CLAUDE.md, commands, agents and skills from ~/.claude. Logins and history always stay separate.</p></div>
+      <div class="card"><h3>Where does mcl store my data?</h3><p>In ~/.multiclaude/&lt;name&gt; by default. Set MULTICLAUDE_HOME to change it.</p></div>
+      <div class="card"><h3>Is mcl free?</h3><p>Yes, fully free and open source under the MIT license.</p></div>
+      <div class="card"><h3>Which platforms are supported?</h3><p>Linux, macOS and Windows with Python 3.9 or newer.</p></div>
+      <div class="card"><h3>Is mcl affiliated with Anthropic?</h3><p>No. It is an independent open-source tool that launches the official claude CLI.</p></div>
+    </div>
+  </section>
 
   <footer>MIT © 2026 <a href="https://al-mo.de/" rel="author">mkalmousli</a> · <a href="https://github.com/mkalmousli/multiclaude">GitHub</a> · Not affiliated with Anthropic.</footer>
 </div>
