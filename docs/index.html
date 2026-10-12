@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>mcl — multiple Claude Code logins, side by side</title>
+<meta name="description" content="Run multiple isolated Claude Code accounts at once. One command, zero dependencies.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23d9a066'/%3E%3Ctext x='16' y='22' font-size='16' font-family='monospace' font-weight='700' text-anchor='middle' fill='%2314161c'%3Emc%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <nav><span class="logo">mcl</span><span><a href="#features">Features</a><a href="https://github.com/mkalmousli/multiclaude">GitHub</a></span></nav>
+
+  <header class="hero">
+    <h1>Every Claude Code login.<br><em>One command.</em></h1>
+    <p class="lead">Stop logging out and back in. <code>mcl</code> gives each account its own isolated config, history and settings — and runs them side by side.</p>
+    <a class="btn" href="https://github.com/mkalmousli/multiclaude">Get it on GitHub</a>
+    <a class="btn alt" href="#how">How it works</a><br>
+    <code class="install">uv tool install git+https://github.com/mkalmousli/multiclaude</code>
+    <div class="shot"><img src="assets/terminal.svg" alt="Terminal showing mcl creating and listing instances" width="720" height="360"></div>
+  </header>
+
+  <section id="features">
+    <h2>Built for people with more than one account</h2>
+    <div class="grid">
+      <div class="card"><h3>Truly isolated</h3><p>Separate login, history and settings per instance via <code>CLAUDE_CONFIG_DIR</code>. Nothing leaks between work and personal.</p></div>
+      <div class="card"><h3>Side by side</h3><p>Run two accounts in two terminals at the same time. No logout, no lost context.</p></div>
+      <div class="card"><h3>Share what you want</h3><p><code>--share</code> links your settings, CLAUDE.md, commands, agents and skills while logins stay private.</p></div>
+      <div class="card"><h3>Drop-in</h3><p>Every <code>claude</code> flag passes straight through. <code>mcl work -c</code> just works.</p></div>
+      <div class="card"><h3>See everything</h3><p><code>mcl ls</code> shows each instance, its account email and when you last used it.</p></div>
+      <div class="card"><h3>Zero dependencies</h3><p>Tiny, pure Python, MIT licensed. Linux, macOS and Windows. Installs in seconds with uv or pipx.</p></div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>How it works</h2>
+    <div class="diagram"><img src="assets/diagram.svg" alt="mcl maps each instance name to its own config directory and claude session" width="720" height="220"></div>
+  </section>
+
+
+  <footer>MIT © 2026 mkalmousli · <a href="https://github.com/mkalmousli/multiclaude">GitHub</a> · Not affiliated with Anthropic.</footer>
+</div>
+</body>
+</html>

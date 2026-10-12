@@ -1,0 +1,28 @@
+:root{--bg:#0f1116;--panel:#171a22;--line:#2a2f3b;--fg:#e6e9f0;--mute:#8b93a7;--acc:#d9a066;--ok:#5ad4a0}
+@media(prefers-color-scheme:light){:root{--bg:#faf8f5;--panel:#fff;--line:#e5e0d8;--fg:#1b1d24;--mute:#5d6475;--acc:#b8672a;--ok:#1a8a5f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+.logo{font:700 20px ui-monospace,Menlo,monospace;color:var(--acc)}
+nav a{color:var(--mute);text-decoration:none;margin-left:20px}
+nav a:hover{color:var(--fg)}
+.hero{text-align:center;padding:60px 0 40px}
+h1{font-size:clamp(2.2rem,6vw,3.8rem);line-height:1.1;margin:0 0 16px;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--acc)}
+.lead{color:var(--mute);max-width:620px;margin:0 auto 28px;font-size:1.15rem}
+.btn{display:inline-block;padding:12px 24px;border-radius:10px;background:var(--acc);color:#14161c;font-weight:700;text-decoration:none;margin:4px}
+.btn.alt{background:transparent;color:var(--fg);border:1px solid var(--line)}
+.install{display:inline-block;margin-top:24px;padding:10px 18px;background:var(--panel);border:1px solid var(--line);border-radius:10px;font:15px ui-monospace,Menlo,monospace;color:var(--ok);max-width:100%;overflow-x:auto;white-space:nowrap}
+.shot{margin:40px auto;max-width:720px}
+.shot img,.diagram img{width:100%;height:auto;display:block;border-radius:12px;box-shadow:0 20px 60px #0006}
+section{padding:50px 0}
+h2{font-size:2rem;text-align:center;margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card h3{margin:0 0 6px;font-size:1.1rem}
+.card p{margin:0;color:var(--mute);font-size:.95rem}
+.diagram{max-width:720px;margin:0 auto}
+.diagram img{background:var(--panel)}
+footer{border-top:1px solid var(--line);padding:30px 0;text-align:center;color:var(--mute);font-size:.9rem}
+footer a{color:var(--acc)}

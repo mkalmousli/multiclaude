@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 220" width="720" height="220" role="img" aria-label="One command, many isolated logins">
+  <g font-family="system-ui,Segoe UI,sans-serif" font-size="15">
+    <rect x="20" y="85" width="150" height="50" rx="10" fill="#d9a066"/>
+    <text x="95" y="116" text-anchor="middle" fill="#14161c" font-weight="700" font-family="ui-monospace,monospace">mcl &lt;name&gt;</text>
+    <g stroke="#8b93a7" stroke-width="2" fill="none"><path d="M170 110 C 230 110, 230 35, 290 35"/><path d="M170 110 H 290"/><path d="M170 110 C 230 110, 230 185, 290 185"/></g>
+    <g fill="#1e222b" stroke="#3a4050"><rect x="290" y="10" width="200" height="50" rx="10"/><rect x="290" y="85" width="200" height="50" rx="10"/><rect x="290" y="160" width="200" height="50" rx="10"/></g>
+    <g fill="#e6e9f0" font-family="ui-monospace,monospace" font-size="13"><text x="305" y="40">~/.multiclaude/work</text><text x="305" y="115">~/.multiclaude/personal</text><text x="305" y="190">~/.multiclaude/client-a</text></g>
+    <g stroke="#8b93a7" stroke-width="2"><path d="M490 35 H 530"/><path d="M490 110 H 530"/><path d="M490 185 H 530"/></g>
+    <g fill="#27c93f" fill-opacity=".15" stroke="#27c93f"><rect x="530" y="10" width="170" height="50" rx="10"/><rect x="530" y="85" width="170" height="50" rx="10"/><rect x="530" y="160" width="170" height="50" rx="10"/></g>
+    <g fill="#5ad4a0" text-anchor="middle"><text x="615" y="40">claude · login A</text><text x="615" y="115">claude · login B</text><text x="615" y="190">claude · login C</text></g>
+  </g>
+</svg>
