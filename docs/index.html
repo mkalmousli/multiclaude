@@ -7,6 +7,8 @@
 <meta name="description" content="mcl is a free, open-source CLI to run multiple Claude Code logins at once. Isolated config, history and settings per account. Linux, macOS, Windows.">
 <meta name="keywords" content="Claude Code, multiple accounts, Claude Code profiles, switch Claude accounts, CLAUDE_CONFIG_DIR, Anthropic CLI">
 <meta name="author" content="mkalmousli">
+<link rel="author" href="https://al-mo.de/">
+<link rel="preload" href="assets/terminal.svg" as="image">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#0f1116">
 <link rel="canonical" href="https://al-mo.de/tools/mcl/">
@@ -31,7 +33,8 @@
 </head>
 <body>
 <div class="wrap">
-  <nav aria-label="Main"><span class="logo">mcl</span><span><a href="#features">Features</a><a href="#faq">FAQ</a><a href="https://github.com/mkalmousli/multiclaude">GitHub</a></span></nav>
+  <nav aria-label="Main"><span class="logo">mcl</span><span><a href="https://al-mo.de/" rel="author">Portfolio</a><a href="#features">Features</a><a href="#faq">FAQ</a><a href="https://github.com/mkalmousli/multiclaude" rel="noopener">GitHub</a></span></nav>
+  <p class="crumbs"><a href="https://al-mo.de/">al-mo.de</a> › <a href="https://al-mo.de/tools/">Tools</a> › mcl</p>
 
   <header class="hero">
     <h1>Every Claude Code login.<br><em>One command.</em></h1>
@@ -39,7 +42,7 @@
     <a class="btn" href="https://github.com/mkalmousli/multiclaude">Get it on GitHub</a>
     <a class="btn alt" href="#how">How it works</a><br>
     <code class="install">uv tool install git+https://github.com/mkalmousli/multiclaude</code>
-    <div class="shot"><img src="assets/terminal.svg" alt="Terminal showing mcl creating and listing instances" width="720" height="360"></div>
+    <div class="shot"><img fetchpriority="high" src="assets/terminal.svg" alt="Terminal showing mcl creating and listing instances" width="720" height="360"></div>
   </header>
 
   <section id="features">
@@ -56,11 +59,11 @@
 
   <section id="how">
     <h2>How mcl isolates Claude Code logins</h2>
-    <div class="diagram"><img src="assets/diagram.svg" alt="mcl maps each instance name to its own config directory and claude session" width="720" height="220"></div>
+    <div class="diagram"><img loading="lazy" src="assets/diagram.svg" alt="mcl maps each instance name to its own config directory and claude session" width="720" height="220"></div>
   </section>
 
 
-  <footer>MIT © 2026 mkalmousli · <a href="https://github.com/mkalmousli/multiclaude">GitHub</a> · Not affiliated with Anthropic.</footer>
+  <footer>MIT © 2026 <a href="https://al-mo.de/" rel="author">mkalmousli</a> · <a href="https://github.com/mkalmousli/multiclaude">GitHub</a> · Not affiliated with Anthropic.</footer>
 </div>
 </body>
 </html>

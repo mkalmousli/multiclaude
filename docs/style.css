@@ -26,3 +26,4 @@ h2{font-size:2rem;text-align:center;margin:0 0 32px}
 .diagram img{background:var(--panel)}
 footer{border-top:1px solid var(--line);padding:30px 0;text-align:center;color:var(--mute);font-size:.9rem}
 footer a{color:var(--acc)}
+.crumbs{margin:0;font-size:.85rem;color:var(--mute)}.crumbs a{color:var(--mute)}
