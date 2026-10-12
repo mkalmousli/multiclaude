@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0f1116"/>
+  <rect x="60" y="60" width="90" height="90" rx="20" fill="#d9a066"/>
+  <text x="105" y="122" text-anchor="middle" font-family="DejaVu Sans Mono,monospace" font-weight="700" font-size="46" fill="#14161c">mc</text>
+  <text x="60" y="290" font-family="DejaVu Sans,Arial,sans-serif" font-weight="700" font-size="84" fill="#e6e9f0">Every Claude Code login.</text>
+  <text x="60" y="390" font-family="DejaVu Sans,Arial,sans-serif" font-weight="700" font-size="84" fill="#d9a066">One command.</text>
+  <text x="60" y="470" font-family="DejaVu Sans,Arial,sans-serif" font-size="34" fill="#8b93a7">Run multiple isolated Claude Code accounts side by side.</text>
+  <text x="60" y="560" font-family="DejaVu Sans Mono,monospace" font-size="30" fill="#5ad4a0">al-mo.de/tools/mcl · free &amp; open source</text>
+</svg>

@@ -2,6 +2,8 @@
 <p align="center"><b>Run multiple Claude Code logins side by side.</b><br>
 Work, personal, clients — each with its own account, history and settings. One command.</p>
 
+<p align="center"><a href="https://al-mo.de/tools/mcl/">Website</a></p>
+
 <p align="center"><img src="docs/assets/terminal.svg" alt="mcl demo" width="640"></p>
 
 ## Why

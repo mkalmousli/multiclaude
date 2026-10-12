@@ -12,7 +12,7 @@ classifiers = ["Environment :: Console", "Programming Language :: Python :: 3", 
 dependencies = []
 
 [project.urls]
-Homepage = "https://mkalmousli.github.io/multiclaude/"
+Homepage = "https://al-mo.de/tools/mcl/"
 Repository = "https://github.com/mkalmousli/multiclaude"
 
 [project.scripts]
